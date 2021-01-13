@@ -1,7 +1,7 @@
 package Routes
 
 import (
-	"github.com/ektagarg/gin-gorm-todo-app/Controllers"
+	"github.com/Wirah/gin-gorm-todo-app/Controllers"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,7 +3,7 @@ package Config
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
+	"github.com/go-gorm/gorm"
 )
 
 var DB *gorm.DB
@@ -19,11 +19,11 @@ type DBConfig struct {
 
 func BuildDBConfig() *DBConfig {
 	dbConfig := DBConfig{
-		Host:     "0.0.0.0",
+		Host:     "localhost",
 		Port:     3306,
 		User:     "root",
 		DBName:   "todos",
-		Password: "rootadmin",
+		Password: "4hk3ju",
 	}
 	return &dbConfig
 }

@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/ektagarg/gin-gorm-todo-app/Config"
-	"github.com/ektagarg/gin-gorm-todo-app/Models"
-	"github.com/ektagarg/gin-gorm-todo-app/Routes"
-	"github.com/jinzhu/gorm"
+	"github.com/Wirah/gin-gorm-todo-app/Config"
+	"github.com/Wirah/gin-gorm-todo-app/Models"
+	"github.com/Wirah/gin-gorm-todo-app/Routes"
+
+	"github.com/go-gorm/gorm"
 )
 
 var err error

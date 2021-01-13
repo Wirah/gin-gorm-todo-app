@@ -3,7 +3,7 @@ package Controllers
 import (
 	"net/http"
 
-	"github.com/ektagarg/gin-gorm-todo-app/Models"
+	"github.com/Wirah/gin-gorm-todo-app/Models"
 	"github.com/gin-gonic/gin"
 )
 
